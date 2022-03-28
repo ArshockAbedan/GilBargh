@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterRead" >
+
+     <ScrollView 
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent"
+   android:scrollbars="vertical"
+   android:background="@drawable/border_gridview">
+   
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="100dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentTop="true"
+          android:orientation="vertical"
+          >
+         
+         
+
+         
+
+
+
+
+<LinearLayout android:id="@+id/linearLayout1Current"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#D2FFD2"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2Current"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+          >
+
+        
+        
+              <TextView
+                  android:id="@+id/txtTarikhInReg"
+                  android:layout_width="0dp"
+                  android:layout_height="30dp"
+                  android:layout_weight="0.01"
+                  android:layout_marginRight="3dp"
+                  android:gravity="center"
+                  android:text=" 1393 12مرداد   12"
+                  android:textDirection="rtl"
+                  android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/FirstTextCurrent"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.01"
+            android:text="قرائت کنونی : "
+            android:textAlignment="0"
+            android:textDirection="rtl"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/linearLayout4Current"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+         <LinearLayout
+        android:id="@+id/linearLayout41Current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+             
+              <EditText 
+                 android:id="@+id/EditTxtHigh"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.01"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="#ffffff"
+                 android:inputType="number"
+                  android:layout_marginLeft="10dp"
+                 android:textSize="18sp"/>
+              
+              <TextView
+                  android:id="@+id/txtHighNameCurrent"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginRight="10dp"
+                  android:gravity="center"
+                  android:text= "اوج بار : "
+                  android:textSize="18sp" />
+               
+         </LinearLayout>
+         
+           <LinearLayout
+        android:id="@+id/linearLayout41Current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+             
+               <EditText 
+                 android:id="@+id/EditTxtMid"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.01"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="#ffffff"
+                 android:inputType="number"
+                  android:layout_marginLeft="10dp"
+                 android:textSize="18sp">
+              <requestFocus />
+                   </EditText>
+              <TextView
+                  android:id="@+id/txtMidNameCurrent"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginRight="10dp"
+                  android:gravity="center"
+                  android:text= "میان باری : "
+                  android:textSize="18sp" />
+               
+         </LinearLayout>
+         
+           
+           
+             <LinearLayout
+        android:id="@+id/linearLayout41Current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+             
+               <EditText 
+                 android:id="@+id/EditTxtlow"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.01"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:background="#ffffff"
+                 android:inputType="number"
+                  android:layout_marginLeft="10dp"
+                 android:textSize="18sp"/>
+              
+              <TextView
+                  android:id="@+id/txtLowNameCurrent"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginRight="10dp"
+                  android:gravity="center"
+                  android:text= "کم باری : "
+                  android:textSize="18sp" />
+               
+         </LinearLayout>
+           
+         
+         
+        </LinearLayout>
+        
+     
+      <LinearLayout
+        android:id="@+id/linearLayout5Current"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_weight="0.10"
+        android:layout_marginBottom="10dp" >
+
+          <EditText
+              android:id="@+id/editTextDescription"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:ems="10"
+              android:background="#ffffff"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:inputType="textMultiLine" />
+
+          
+           <TextView
+               android:id="@+id/txtDescriptionNameCurrent"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="5dp"
+               android:gravity="center"
+               android:text="توضیحات : "
+               android:textSize="18sp" />
+   
+</LinearLayout>
+</LinearLayout>
+
+<Button
+    android:id="@+id/btnRegister"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:onClick="RegisterFunc"
+    android:text="ثبت" />
+         
+         </LinearLayout>
+         
+     </ScrollView>
+</RelativeLayout>
+

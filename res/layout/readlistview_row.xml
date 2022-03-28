@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#7099B2FF"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+         <LinearLayout
+             android:id="@+id/linearLayout3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.10"
+             android:orientation="vertical" >
+        
+              <TextView
+                  android:id="@+id/SecondText"
+                  android:layout_width="match_parent"
+                  android:layout_height="30dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:gravity="center"
+                  android:text="تاریخ"
+                  android:textDirection="rtl"
+                  android:textSize="22sp" />
+              
+               <TextView
+                   android:id="@+id/blankfirst"
+                   android:layout_width="match_parent"
+                   android:layout_height="10dp"
+                   android:gravity="right|center"
+                   android:text=""
+                   android:textDirection="rtl"
+                   android:textSize="20sp" />
+        
+             </LinearLayout>
+        
+        <TextView
+            android:id="@+id/FirstText"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.04"
+            android:text="1"
+            android:textAlignment="0"
+            android:textDirection="rtl"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_weight="0.10"
+        android:orientation="horizontal" >
+        
+         <LinearLayout
+        android:id="@+id/linearLayout41"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+               
+             <TextView 
+                 android:id="@+id/txtHighName"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="پر باری"
+                 android:gravity="center"
+                 android:textSize="18sp"/>
+             
+             
+              <TextView 
+                 android:id="@+id/FifthText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="High"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:textSize="18sp"/>
+               
+         </LinearLayout>
+         
+          <LinearLayout
+        android:id="@+id/linearLayout42"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+              
+               <TextView 
+                 android:id="@+id/txtMidName"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="میان باری"
+                 android:gravity="center"
+                 android:textSize="18sp"/>
+             
+             
+              <TextView 
+                 android:id="@+id/FourthText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:textSize="18sp"
+                 android:layout_marginTop="10dp"
+                 android:text="Mid"/>
+              
+         </LinearLayout>
+         
+          
+           <LinearLayout
+        android:id="@+id/linearLayout43"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+               
+                <TextView 
+                 android:id="@+id/txtLowName"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="کم باری"
+                 android:gravity="center"
+                 android:textSize="18sp"/>
+             
+             
+              <TextView 
+                 android:id="@+id/ThirdText"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Low"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:textSize="18sp"/>
+               
+         </LinearLayout>
+          
+        </LinearLayout>
+        
+     
+      <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_weight="0.10"
+        android:layout_marginBottom="10dp" >
+           
+           <TextView 
+                 android:id="@+id/SixthText"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.01"
+                 android:text="Description"
+                 android:gravity="center|right"
+                 android:maxLines="4"
+                 android:singleLine="false"
+                 android:ellipsize="end"
+                 android:layout_marginTop="5dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                 android:textSize="18sp"/>
+          
+           <TextView
+               android:id="@+id/txtDescriptionName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="5dp"
+               android:gravity="center"
+               android:text="توضیحات : "
+               android:textSize="18sp" />
+   
+</LinearLayout>
+</LinearLayout>

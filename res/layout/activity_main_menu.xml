@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainMenuActivity" >
+    
+    <LinearLayout
+        android:id="@+id/LinearLayoutOFMainGrid"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:layout_above="@+id/RelativeLayout1"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/border_gridview">
+        
+        <GridView 
+            android:id="@+id/gridView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="150dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_horizontal"
+    android:layoutDirection="rtl"
+    android:numColumns="2"
+    android:stretchMode="columnWidth"
+    android:padding="10dp"
+    ></GridView>
+    </LinearLayout>
+
+   <RelativeLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="#FFFF00"
+    android:gravity="right" >
+
+    <TextView
+        android:id="@+id/txtOperatorNameLable"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="کاربر : "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtOprtNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtOperatorNameLable"
+        android:layout_marginTop="5dp"
+        android:text="username"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtTodayDateLable"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/txtOperatorNameLable"
+        android:text="امروز : "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtTodayDateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtTodayDateLable"
+        android:layout_alignBottom="@+id/txtTodayDateLable"
+        android:layout_toLeftOf="@+id/txtTodayDateLable"
+        android:text="Date"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="IranFlag"
+        android:src="@drawable/iran_flag" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtTodayDateLable"
+        android:layout_below="@+id/txtTodayDateLable"
+        android:text="نسخه :  1.0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtVersion"
+        android:layout_alignBottom="@+id/txtVersion"
+        android:layout_alignLeft="@+id/imageView1"
+        android:text="www.abedjooy.ir"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+</RelativeLayout>

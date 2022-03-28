@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ContourOwnerDetail" >
+
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:verticalScrollbarPosition="left"
+        android:scrollbars="vertical"
+        android:background="@drawable/border_gridview" >
+
+        <TextView
+             android:id="@+id/txtDepartmentName"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+             android:text="منطقه برق : " />
+
+         <TextView
+             android:id="@+id/txtDepartmentNameValue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/txtDepartmentName"
+             android:layout_below="@+id/txtDepartmentName"
+             android:layout_marginRight="42dp"
+             android:layout_marginTop="18dp"
+             android:text="برق منطقه ای لاهیجان"
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/txtDepartmentAddress"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/txtDepartmentName"
+             android:layout_below="@+id/txtDepartmentNameValue"
+             android:layout_marginTop="15dp"
+             android:textSize="20sp"
+             android:text="آدرس منطقه : " />
+
+         <TextView
+             android:id="@+id/txtDepartmentAddressValue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/txtDepartmentAddress"
+             android:layout_below="@+id/txtDepartmentAddress"
+             android:layout_marginRight="16dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="15dp"
+             android:textSize="18sp"
+             android:singleLine="false"
+             android:maxLines="4"
+             android:ellipsize="end"
+             android:text="لاهیجان کوچه شهید حامدی پلا ک /n fdsfsdfsdf/n fgdfg" />
+
+         <TextView
+             android:id="@+id/txtDepartmentPhone"
+             android:layout_width="70dp"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/txtDepartmentAddress"
+             android:layout_below="@+id/txtDepartmentAddressValue"
+             android:layout_marginTop="15dp"
+             android:textSize="20sp"
+             android:text="تلفن : " />
+
+         <TextView
+             android:id="@+id/txtDepartmentPhoneValue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/txtDepartmentPhone"
+             android:layout_alignBottom="@+id/txtDepartmentPhone"
+             android:layout_toLeftOf="@+id/txtDepartmentPhone"
+             android:textSize="22sp"
+             android:layout_marginRight="10dp"
+             android:text="TextView" />
+
+         <TextView
+             android:id="@+id/textDepartmentFax"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/txtDepartmentPhone"
+             android:layout_alignRight="@+id/txtDepartmentPhone"
+             android:layout_below="@+id/txtDepartmentPhone"
+             android:layout_marginTop="15dp"
+             android:text="فکس : "
+             android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/txtDepartmentFaxValue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/textDepartmentFax"
+             android:layout_alignBottom="@+id/textDepartmentFax"
+             android:layout_alignRight="@+id/txtDepartmentPhoneValue"
+             android:textSize="22sp"
+             android:text="TextView" />
+         
+         </RelativeLayout>
+
+</RelativeLayout>

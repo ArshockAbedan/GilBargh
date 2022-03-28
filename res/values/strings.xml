@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">کنتورخوان</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="UserName">کد اشتراک</string>
+    <string name="Password">رمز عبور</string>
+    <string name="EnterInto">ورود</string>
+    <string name="title_activity_main_menu">کنتور خوان</string>
+    <string name="title_activity_contour_detail">اطلاعات کنتور</string>
+    <string name="Subscription">اشتراک : </string>
+    <string name="title_activity_contour_owner_detail">اطلاعات مالک کنتور</string>
+    <string name="title_activity_power_department_detail">اداره برق منطقه</string>
+    <string name="title_activity_last_periods_read">لیست مصرف دوره های قبل</string>
+    <string name="title_activity_register_read">ثبت قرائت کنتور</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.abedjooy.gilbargh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ir.abedjooy.gilbargh.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.ContourDetail"
+            android:label="@string/title_activity_contour_detail" >
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.ContourOwnerDetail"
+            android:label="@string/title_activity_contour_owner_detail" >
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.PowerDepartmentDetail"
+            android:label="@string/title_activity_power_department_detail" >
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.LastPeriodsRead"
+            android:label="@string/title_activity_last_periods_read" >
+        </activity>
+        <activity
+            android:name="ir.abedjooy.gilbargh.RegisterRead"
+            android:label="@string/title_activity_register_read" >
+        </activity>
+    </application>
+
+</manifest>
